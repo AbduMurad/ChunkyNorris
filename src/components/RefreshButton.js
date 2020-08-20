@@ -1,10 +1,10 @@
 import React from 'react';
 import './RefreshButton.css';
 
-const RefreshButton = ({refreshPage}) => {
+const RefreshButton = ({refreshPage, props}) => {
     return (
-        <button onClick={refreshPage}>Another Funny Joke</button>
+        <button onClick={refreshPage}>{props}</button>
     )
 }
 
-export default RefreshButton;
+export default RefreshButton; 

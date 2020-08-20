@@ -9,6 +9,7 @@ class App extends Component {
     super();
     this.state = {
       jokes: [],
+      buttonValue: 'Start Laughing',
     }
   }
 
@@ -20,21 +21,20 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.fetchJoke();
   }
   
   onClickRefresh = () => {
     this.fetchJoke();
+    this.setState({buttonValue: 'Another Funny Joke'});
   }
 
   render () {
     const {jokes} = this.state;
-    
+    const {buttonValue} = this.state;
     return (
       <div className="App">
-        <h1>Start Laughing</h1>
+        <RefreshButton refreshPage={this.onClickRefresh} props={buttonValue}/>
         <Joke joke={jokes.value} />
-        <RefreshButton refreshPage={this.onClickRefresh}/>
       </div>
     )
   };
