@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ChunkyNorris/static/css/main.75815259.chunk.css",
+    "main.css": "/ChunkyNorris/static/css/main.f1ffefde.chunk.css",
     "main.js": "/ChunkyNorris/static/js/main.eba20e31.chunk.js",
     "main.js.map": "/ChunkyNorris/static/js/main.eba20e31.chunk.js.map",
     "runtime-main.js": "/ChunkyNorris/static/js/runtime-main.3a7c63f9.js",
@@ -8,15 +8,15 @@
     "static/js/2.ba698c03.chunk.js": "/ChunkyNorris/static/js/2.ba698c03.chunk.js",
     "static/js/2.ba698c03.chunk.js.map": "/ChunkyNorris/static/js/2.ba698c03.chunk.js.map",
     "index.html": "/ChunkyNorris/index.html",
-    "precache-manifest.414ac210bcf2e01f330998cc7a1a8507.js": "/ChunkyNorris/precache-manifest.414ac210bcf2e01f330998cc7a1a8507.js",
+    "precache-manifest.0ceadff38abf074a7f1e4edc971c89be.js": "/ChunkyNorris/precache-manifest.0ceadff38abf074a7f1e4edc971c89be.js",
     "service-worker.js": "/ChunkyNorris/service-worker.js",
-    "static/css/main.75815259.chunk.css.map": "/ChunkyNorris/static/css/main.75815259.chunk.css.map",
+    "static/css/main.f1ffefde.chunk.css.map": "/ChunkyNorris/static/css/main.f1ffefde.chunk.css.map",
     "static/js/2.ba698c03.chunk.js.LICENSE.txt": "/ChunkyNorris/static/js/2.ba698c03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3a7c63f9.js",
     "static/js/2.ba698c03.chunk.js",
-    "static/css/main.75815259.chunk.css",
+    "static/css/main.f1ffefde.chunk.css",
     "static/js/main.eba20e31.chunk.js"
   ]
 }
